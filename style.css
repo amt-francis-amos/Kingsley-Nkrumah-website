@@ -297,5 +297,13 @@ nav li a:hover:after{
         flex-direction:column;
      }
 
+     .left-info p{
+        font-size:16px;
+     }
+
+     .price-btn{
+        padding:10px 18px;
+     }
+
 
 }
