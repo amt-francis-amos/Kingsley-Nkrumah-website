@@ -278,14 +278,24 @@ nav li a:hover:after{
      .welcome-section{
         text-align:center;
      }
+     
 
+     .left-info, .right-info{
+        flex-basis:100%;
+     }
      
 
      .left-info h2{
-        font-size:12px;
+        font-size:18px;
      }
 
      .left-info h1{
         font-size:14px;
      }
+
+     .info-container{
+        flex-direction:column;
+     }
+
+
 }
