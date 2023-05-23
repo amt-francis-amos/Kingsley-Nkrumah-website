@@ -14,8 +14,7 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-
-  
+    <script src="https://kit.fontawesome.com/3d9dc13736.js"></script>
 
     <link rel="stylesheet" href="style.css">
 
@@ -24,8 +23,10 @@
 <body>
 
     <header>
-        <nav>
-            <img src="images/logo-new.png" class="logo">
+       <div class="nav-bar">
+        <img src="images/logo-new.png" class="logo">
+        <nav class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
@@ -33,9 +34,9 @@
                 <li><a href="#">PRICE</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
-            <a href="#" class="order-btn">ORDER HERE</a>
         </nav>
-
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </div>
  
         <div class="welcome-section">
             <div class="info-container">
@@ -75,7 +76,7 @@
     <!-- ------END OF ABOUT PAGE SECTION -->
 
 
-<!-- ---- ACHIEVEMENT SECTTION ------ -->
+<!-- ---- ACHIEVEMENT SECTION ------ -->
 <section class="achievement"  id="achievement">
 <div class="achieve">
  <div class="achieve-info">
@@ -85,21 +86,30 @@
 </div>
 </section>
 
-
-
-<!-- ---- END OF ACHIEVEMENT SECTTION ------ -->
-
+<!-- ---- END OF ACHIEVEMENT SECTION ------ -->
 
 
 
 
+<!-- ----PRICE SECTION ------- -->
+
+<section class="price"  id="price">
+
+</section>
 
 
 
 
 
 
+<!-- ----END OF PRICE SECTION ------- -->
 
+
+
+
+
+
+<script src="script.js"></script>
     
 </body>
 </html>
