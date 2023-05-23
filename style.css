@@ -293,7 +293,10 @@ nav li a:hover:after{
         font-size:16px;
      }
 
-   
+   .price-btn{
+    font-size:13px;
+    margin-bottom:15px;
+   }
 
     
 
