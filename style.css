@@ -270,8 +270,12 @@ nav li a:hover:after{
 /* ---RESPONSIVENESS STYLING ------ */
 
 @media (max-width:600px) {
-  
 
+    .nav-bar{
+        margin:auto 30px;
+    }
+  
+/* ---- MENU BAR ------- */
      .fa-bars{
         position:absolute;
         right:50px;
@@ -282,7 +286,7 @@ nav li a:hover:after{
 
 
   .nav-links{
-       background:var(--primary-color);
+       background:#007bff;
        height:100vh;
         width:200px;
         top:0;
@@ -322,16 +326,17 @@ nav li a:after{
     cursor:pointer;
 }
 
+/* ----END OF MENU BAR--------- */
 
 
      .logo{
         width:70px;
      }
 
-     .order-btn{
+     /* .order-btn{
         font-size:14px;
         padding:10px 20px;
-     }
+     } */
 
 
      .left-info, .right-info{
@@ -357,7 +362,7 @@ nav li a:after{
      }
 
    .price-btn{
-    font-size:13px;
+    font-size:12px;
     margin-bottom:15px;
    }
 
@@ -390,3 +395,6 @@ nav li a:after{
  
 
 }
+
+
+
