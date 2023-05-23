@@ -298,7 +298,32 @@ nav li a:hover:after{
     margin-bottom:15px;
    }
 
-    
+    .about-container{
+        text-align:center;
+    }
 
+    .about-info h2{
+        font-size:18px;
+    }
+
+    .about-info p{
+        font-size:14px;
+    }
+
+
+.achieve{
+    width:100%;
+}
+
+
+  .achieve-info h2{
+    font-size:20px;
+    margin-bottom:20px;
+  }
+
+  .achieve-btn{
+    width:290px;
+  }
+ 
 
 }
