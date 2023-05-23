@@ -36,7 +36,7 @@ nav{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:20px 8%;
+    padding:2% 8%;
 }
 
 .logo{
@@ -86,34 +86,41 @@ nav li a:hover:after{
     color:var(--white-color);
 }
 
-
+.container{
+    width:85%;
+    margin:auto;
+}
 
 .info-container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
-    gap:30px;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
     padding:0 8%;
-   
 }
 
-.page-info{
-    position: relative;
+.left-info{
+    width:50%;
 }
 
-
-.page-info img{
-    width:100%;
-    position:absolute;
-    top:-27%;
-    left:10%;
+.right-info{
+    width:50%;
 }
+
+/* .page-info{
+    position:relative;
+}
+*/
+
+
+.right-info img{
+    max-width:100%;
+} 
 
 
 
 .welcome-section{
     color:var(--white-color);
     font-size:17px;
-    margin-top:8%;
     
 }
 
