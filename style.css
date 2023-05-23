@@ -96,39 +96,35 @@ nav li a:hover:after{
     align-items:center;
     flex-wrap:wrap;
     padding:0 8%;
+    justify-content: space-between;
 }
 
 .left-info{
-    width:50%;
+    flex-basis:50%;
 }
 
 .right-info{
-    width:50%;
+    flex-basis:50%;
 }
-
-/* .page-info{
-    position:relative;
-}
-*/
 
 
 .right-info img{
     max-width:100%;
+    
 } 
 
 
 
 .welcome-section{
     color:var(--white-color);
-    font-size:17px;
     
 }
 
-.welcome-section h2{
+.left-info h2{
     font-size:20px;
 }
 
-.welcome-section h1{
+.left-info h1{
     font-size:78px;
     line-height:75px;
     margin-top:20px;
@@ -136,7 +132,7 @@ nav li a:hover:after{
 }
 
 
-.welcome-section p{
+.left-info p{
     margin-top:20px;
 }
 
@@ -208,7 +204,6 @@ nav li a:hover:after{
 
 .about-info img{
     max-width:70%;
-    margin-left:70px;
 }
 
 /* -------- END OF ABOUT PAGE STYLING --------- */
@@ -257,3 +252,40 @@ nav li a:hover:after{
 
 
 /* ---END OF ACHIEVEMENT STYLING ----- */
+
+
+
+
+/* ---RESPONSIVENESS STYLING ------ */
+
+@media (max-width:600px) {
+
+
+     nav ul{
+        display:none;
+     }
+
+     .logo{
+        width:70px;
+     }
+
+     .order-btn{
+        font-size:14px;
+        padding:10px 20px;
+     }
+
+
+     .welcome-section{
+        text-align:center;
+     }
+
+     
+
+     .left-info h2{
+        font-size:12px;
+     }
+
+     .left-info h1{
+        font-size:14px;
+     }
+}
