@@ -275,18 +275,13 @@ nav li a:hover:after{
      }
 
 
-     .welcome-section{
-        text-align:center;
-     }
-     
-
      .left-info, .right-info{
         flex-basis:100%;
      }
      
 
      .left-info h2{
-        font-size:18px;
+        font-size:13px;
      }
 
      .left-info h1{
@@ -295,6 +290,7 @@ nav li a:hover:after{
 
      .info-container{
         flex-direction:column;
+        text-align:center;
      }
 
      .left-info p{
@@ -303,6 +299,10 @@ nav li a:hover:after{
 
      .price-btn{
         padding:10px 18px;
+     }
+
+     .right-info img{
+        width:250px;
      }
 
 
