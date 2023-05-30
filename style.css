@@ -323,6 +323,7 @@ transition: all 0.5s;
 .about-info p{
     color:var(--light-gray);
     line-height:28px;
+    text-align: justify;
 }
 
 
@@ -383,10 +384,87 @@ transition: all 0.5s;
 }
 
 
+.top{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:var(--primary-color);
+    position:fixed;
+    right:5%;
+    z-index:1;
+    text-align:center;
+    padding:10px;
+    bottom:5%;
+    background-image:url('images/upload.png');
+    background-size:50%;
+    background-repeat:no-repeat;
+    background-position:center;;
+
+}
+
+
+
+
+
+
+a .top {
+    color:var(--white-color);
+    font-size:22px;
+    font-weight:bold;
+}
 /* ---END OF ACHIEVEMENT STYLING ----- */
 
 
 
+
+/* ----- FOOTER SECTION STYLING ------ */
+
+footer{
+    padding:100px 0;
+    background:#222;
+    margin-top:80px;
+    color:var(--white-color);
+}
+
+
+.footer-container{
+    padding:0 8%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.footer-info h2{
+    margin-bottom:30px;
+}
+
+
+.footer-info a{
+    color: var(--white-color);
+    text-decoration: underline;
+    transition: 2s;
+}
+
+
+.footer-info a:hover{
+    color: rgb(71, 71, 223);
+}
+.social-media i{
+    color:#fff;
+    margin:0 10px;
+    font-size:22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----- END OF FOOTER SECTION STYLING ------ */
 
 
 
