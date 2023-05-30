@@ -159,6 +159,133 @@ nav li a:hover:after{
     color:var(--white-color);
 }
 
+
+.read-more{
+padding: 12px 40px;
+background-color: var(--black-color);
+border-radius: 25px;
+font-weight: 700;
+margin:5px;
+color:var(--white-colorcolor);
+text-transform:uppercase;
+border: 2px solid #fff;
+transition: all 0.5s;
+}
+
+
+
+.read-more:hover{
+    background-color: var(--white-color);
+    color: var(--black-color);
+    
+}
+
+.read-more-left a i{
+    margin-bottom:20px;
+    font-size:20px;
+}
+
+.read-more-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    gap: 50px;
+    padding: 0 8%;
+    margin-top:7%;
+}
+
+.read-more-left p{
+    text-align:justify;
+    line-height:30px;
+}
+
+
+.read-more-left{
+    padding-left: 20px;
+}
+
+.read-more-left h1{
+    text-transform:uppercase;
+    margin-bottom:15px
+}
+
+
+
+.read-more-right img{
+    padding-top: 20px;
+    max-width:100%;
+    animation:move 8s infinite;
+}
+
+
+@keyframes move{
+    0%{
+        transform:translateY(10px);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(10px);
+    }
+}
+
+
+.read-more-continue{
+    padding: 0 9%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.read-more-continue h2::after{
+    content: "";
+    width:40px;
+    height:4px;
+    background:var(--primary-color);
+    display:block;
+    margin:10px 0;
+    border-radius:6px;
+    font-size:30px;
+}
+
+
+.read-more-continue h3{
+    margin:20px 0;
+    font-size:25px;
+}
+
+
+
+.read-more-continue h3::after{
+    content: "";
+    width:40px;
+    height:4px;
+    background:var(--primary-color);
+    display:block;
+    border-radius:6px;
+    font-size:40px;
+    font-size:30px;
+    margin:10px 0;
+    }
+
+
+
+.read-more-continue p{
+    text-align:justify;
+    line-height:30px;
+    margin-bottom:25px;
+}
+
+.wikipedia-link{
+    text-decoration: underline;
+}
+.wikipedia-link:hover{
+    color: red;
+}
+
+
 /* -----END OF NAVBAR STYLING ----- */
 
 
