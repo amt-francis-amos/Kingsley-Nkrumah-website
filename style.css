@@ -403,14 +403,11 @@ transition: all 0.5s;
 }
 
 
-
-
-
-
 a .top {
     color:var(--white-color);
     font-size:22px;
     font-weight:bold;
+
 }
 /* ---END OF ACHIEVEMENT STYLING ----- */
 
