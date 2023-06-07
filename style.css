@@ -27,7 +27,6 @@ header{
     height:100vh;
     background:#000;
     margin-bottom:70px;
-    overflow-x:hidden;
     
 }
 
@@ -459,8 +458,11 @@ footer{
 
 @media (max-width:600px) {
 
+
+
     .nav-bar{
         margin:auto 30px;
+       
     }
   
 /* ---- MENU BAR ------- */
@@ -479,11 +481,12 @@ footer{
         width:200px;
         top:0;
         right:-200px;
-        position:absolute;
+        position:fixed;
         text-align:left;
         z-index:2;
         transition:0.5s;
         color:var(--white-color);
+        overflow:hidden;
   }
 
 
