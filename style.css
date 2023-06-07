@@ -331,15 +331,35 @@ transition: all 0.5s;
     background-position:center;
     overflow:hidden;
     background-attachment:fixed;
+   display:flex;
+   align-items:center;
+   justify-content:center;
 }
 
-.order-section h1{
+
+
+.order-section h1 {
     color:var(--white-color);
     text-align:left;
     padding:0 8%;
     margin:150px 0;
     font-size:40px;
+    display: block;
+   
 }
+
+
+
+.order-section h1 span a{
+    color:#fff;
+    font-size:17px;
+    margin-left:20px;
+    
+}
+
+.order-section h1 span a:hover {
+    text-decoration: underline;
+  }
 
 
 .order-form{
