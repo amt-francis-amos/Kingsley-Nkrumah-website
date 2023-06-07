@@ -309,15 +309,13 @@ transition: all 0.5s;
     background-attachment:fixed;
 }
 
-.hero-section H1{
+.hero-section h1{
     color:var(--white-color);
     text-align:left;
     padding:0 8%;
     margin:150px 0;
     font-size:40px;
 }
-
-
 
 
 .order-section{
@@ -331,7 +329,7 @@ transition: all 0.5s;
     background-attachment:fixed;
 }
 
-.order-section H1{
+.order-section h1{
     color:var(--white-color);
     text-align:left;
     padding:0 8%;
@@ -352,13 +350,15 @@ transition: all 0.5s;
 }
 
 .form-info h1{
-    font-size:43px;
+    width:38%;
+    font-size:40px;
     margin-bottom:15px;
     line-height:48px;
 }
 
 
 .form-info p{
+    width:80%;
     line-height:28px;
 }
 
@@ -548,6 +548,10 @@ footer{
 .footer-info a:hover{
     color: rgb(71, 71, 223);
 }
+
+
+
+
 .social-media i{
     color:#fff;
     margin:0 10px;
@@ -752,7 +756,35 @@ nav li a:after{
     background-position: top;
  }
 
+
+ .order-section h1{
+    font-size:30px;
+    text-align:center;
+ }
  
+
+ .form-info{
+    text-align:center;
+    margin:auto;
+ }
+
+.form-info h1{
+    width:100%;
+    line-height:35px;
+    font-size:25px;
+}
+
+.form-info p{
+    width:100%;
+    line-height:28px;
+    font-size:19px;
+}
+
+
+
+
+
+
 
 }
 
