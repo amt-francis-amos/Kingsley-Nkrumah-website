@@ -96,8 +96,45 @@ nav li a:hover:after{
 
 .right-info img{
     max-width:100%;
-    
+    animation:move 5s infinite;
 } 
+
+
+
+
+@keyframes move{
+    0%{
+        transform:translateY(10px);
+      
+    }
+
+    50%{
+        transform:translateY(-10px);
+   
+    }
+
+    100%{
+        transform:translateY(10px);
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -201,7 +238,7 @@ transition: all 0.5s;
 .read-more-right img{
     padding-top: 20px;
     max-width:100%;
-    animation:move 8s infinite;
+    animation:move 5s infinite;
 }
 
 
