@@ -85,6 +85,7 @@ nav li a:hover:after{
 .info-container{
     display:flex;
     align-items:center;
+    flex-wrap:wrap;
     padding:0 8%;
 }
 
@@ -119,7 +120,8 @@ nav li a:hover:after{
 
 
 .left-info p{
-    margin:25px 0;
+    width:100%;
+    margin:20px 0;
 }
 
 
@@ -369,6 +371,12 @@ transition: all 0.5s;
 }
 
 
+
+
+
+
+
+
 .top{
     width:50px;
     height:50px;
@@ -552,14 +560,19 @@ nav li a:after{
      .info-container{
         flex-direction:column;
         text-align:center;
+        margin-top:15px;
      }
 
 
 
      .left-info p{
+        font-size:12px;
+        width:230px;
         margin:auto;
-        font-size:16px;
-        margin-bottom:30px;
+     }
+
+     .btn-container{
+        margin-top:20px;
      }
 
 
@@ -569,7 +582,7 @@ nav li a:after{
 
    .right-info img{
     margin-top:20px;
-    width:250px;
+    width:220px;
     padding-bottom:30px;
    }
 
