@@ -244,6 +244,10 @@ transition: all 0.5s;
     margin-bottom: 5%;
 
 }
+
+
+
+
 .read-more-continue h2::after{
     content: "";
     width:40px;
@@ -699,9 +703,9 @@ nav li a:after{
   }
 
 
-  .hero-section, .order-section{
-    min-height:100%;
-  }
+ .hero-page, .order-page{
+    width:100%;
+ }
 
  
 
