@@ -120,7 +120,7 @@ nav li a:hover:after{
 
 
 .left-info p{
-    width:100%;
+    width:500px;
     margin:20px 0;
 }
 
@@ -186,6 +186,7 @@ transition: all 0.5s;
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     padding:0 8%;
+    align-items:center;
 }
 
 .read-more-info p{
@@ -337,6 +338,47 @@ transition: all 0.5s;
     margin:150px 0;
     font-size:40px;
 }
+
+
+.order-form{
+    padding:100px 0;
+}
+
+
+.form-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    padding:2% 8%;
+}
+
+.form-info h1{
+    font-size:43px;
+    margin-bottom:15px;
+    line-height:48px;
+}
+
+
+.form-info p{
+    line-height:28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -673,7 +715,6 @@ nav li a:after{
 .achieve{
     width:100%;
     height:auto;
-    background-attachment: scroll;
     background-position: top;
 }
 
@@ -708,7 +749,6 @@ nav li a:after{
 
  .hero-page, .order-page{
     height:auto;
-    background-attachment: scroll;
     background-position: top;
  }
 
