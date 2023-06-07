@@ -315,6 +315,26 @@ transition: all 0.5s;
 
 
 
+.order-section{
+    width:100%;
+    min-height:370px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/order.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    overflow:hidden;
+    background-attachment:fixed;
+}
+
+.order-section H1{
+    color:var(--white-color);
+    text-align:left;
+    padding:0 8%;
+    margin:150px 0;
+    font-size:40px;
+}
+
+
 
 
 /* -----END OF NAVBAR STYLING ----- */
@@ -679,7 +699,9 @@ nav li a:after{
   }
 
 
-
+  .hero-section, .order-section{
+    min-height:100%;
+  }
 
  
 
