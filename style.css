@@ -17,6 +17,10 @@
     --light-gray:#939292;
 }
 
+body{
+    overflow-x:hidden; 
+}
+
 html{
     scroll-behavior:smooth;
 }
@@ -350,7 +354,6 @@ transition: all 0.5s;
 }
 
 .form-info h1{
-    width:38%;
     font-size:40px;
     margin-bottom:15px;
     line-height:48px;
@@ -365,13 +368,56 @@ transition: all 0.5s;
 
 
 
+.form-group{
+    padding:5px 0;
+}
+
+
+
+.contact-form{
+    padding:15px;
+}
+
+.form-control{
+    width:90%;
+    border-radius:0;
+    border:2px solid #ccc;
+    padding:10px 10px;
+    outline:none;
+}
+
+::placeholder{
+    color:#999;
+    background:#fff;
+}
 
 
 
 
+select{
+    padding:10px;
+}
+
+.btn-3{
+    padding:15px 30px;
+    background:#007bff;
+    border:none;
+    outline:none;
+    color:var(--white-color);
+    font-weight:bold;
+    border-radius:25px;
+    transition:background .3s;
+}
+
+.btn-3:hover{
+    background-color:#222;
+}
 
 
-
+.form-info img{
+    width:80%;
+   
+}
 
 
 
@@ -780,6 +826,10 @@ nav li a:after{
     font-size:19px;
 }
 
+
+.form-control{
+    width:100%;
+}
 
 
 
