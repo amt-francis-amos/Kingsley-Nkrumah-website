@@ -99,9 +99,6 @@ nav li a:hover:after{
    
 } 
 
-
-
-
 .welcome-section{
     color:var(--white-color);
     line-height:28px;
@@ -202,8 +199,18 @@ transition: all 0.5s;
 .read-more-right img{
     padding-top: 20px;
     max-width:100%;
-    animation:move 5s infinite;
+    transition:all .5s;
+    /* animation:move 5s infinite; */
+    cursor: pointer;
 }
+
+
+.read-more-right img:hover{
+    transform:scale(1.1);
+}
+
+
+
 
 
 @keyframes move{
@@ -272,6 +279,31 @@ transition: all 0.5s;
 .wikipedia-link:hover{
     color: red;
 }
+
+
+
+.hero-section{
+    width:100%;
+    min-height:370px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/books.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    overflow:hidden;
+    background-attachment:fixed;
+}
+
+.hero-section H1{
+    color:var(--white-color);
+    text-align:left;
+    padding:0 8%;
+    margin:150px 0;
+    font-size:40px;
+}
+
+
+
+
 
 
 /* -----END OF NAVBAR STYLING ----- */
