@@ -5,7 +5,7 @@
     padding:0;
     box-sizing:border-box;
     text-decoration:none;
-    font-family:"Poppins", sans-serif;
+    font-family:"Quicksand", sans-serif;
 }
 
 
@@ -45,6 +45,7 @@ nav .fa{
 
 .logo{
     width:90px;
+    cursor: pointer;
 }
 
 nav{
@@ -61,7 +62,8 @@ nav li{
 
 nav li a{
     color:var(--white-color);
-    font-size:15px;
+    font-size:14px;
+    font-weight:600;
 }
 
 nav li a:after{
@@ -106,7 +108,7 @@ nav li a:hover:after{
 }
 
 .left-info h2{
-    font-size:18px;
+    font-size:15px;
     margin-bottom:15px;
 }
 
