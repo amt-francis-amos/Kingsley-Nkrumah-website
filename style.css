@@ -705,6 +705,7 @@ nav li a:after{
 
  .hero-page, .order-page{
     width:100%;
+    height:auto;
  }
 
  
